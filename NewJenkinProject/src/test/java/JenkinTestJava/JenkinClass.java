@@ -1,9 +1,12 @@
 package JenkinTestJava;
 
+import org.testng.annotations.Test;
+
 public class JenkinClass {
 
-	public static void main(String[] args) {
-		System.out.println("my test 1");
+	@Test()
+	public void m1() {
+		System.out.println("my testng test");
 
 	}
 
