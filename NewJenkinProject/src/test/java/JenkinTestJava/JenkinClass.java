@@ -9,5 +9,10 @@ public class JenkinClass {
 		System.out.println("my testng test");
 
 	}
+	@Test
+	public void test2() {
+		System.out.println("This is my 2 nd test");	
+		
+	}
 
 }
